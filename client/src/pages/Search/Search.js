@@ -48,7 +48,7 @@ class Books extends Component {
     if (this.state.title) {
       API.searchForBooks(this.state.title)
         .then(res => {
-          // console.log(res.data.items);
+          console.log(res.data.items);
           var books = res.data.items;
           books = books.map(book => {
             book = {
@@ -60,7 +60,7 @@ class Books extends Component {
               image: book.volumeInfo.imageLinks.thumbnail,
               link: book.volumeInfo.infoLink
             };
-            // console.log(book);
+            console.log(book);
             return book;
           });
           this.setState({ books: books });
