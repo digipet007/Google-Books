@@ -6,7 +6,7 @@ Google Books is a web app that lets users search for books by title and save/del
 
 ![demo](demo/book.gif)
 
-For a demo of the app, visit: <https://________.herokuapp.com>
+For a demo of the app, visit: <https://warm-shelf-43646.herokuapp.com/>
 
 ### Prerequisites
 
