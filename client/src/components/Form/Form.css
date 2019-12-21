@@ -1,0 +1,11 @@
+.search-bar {
+    width: 500px;
+    align-self: auto;
+    margin-bottom: 10;
+}
+
+.search-button .search-bar{
+    margin-bottom: 10;
+    margin: auto;
+    width: 50%;
+}
